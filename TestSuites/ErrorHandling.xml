@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	
+	<listeners><listener class-name = "RHA.SeleniumFrameworkDesign.TestComponents.Listeners"/></listeners>
+	<groups><run><include name = "ErrorHandling"/></run></groups>
+	
+	
+  <test thread-count="5" name="Submit Order Test">
+    <classes>
+      <class name="RHA.SeleniumFrameworkDesign.StandAloneTestRefactor"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Error Validations">
+    <classes>
+      <class name="RHA.SeleniumFrameworkDesign.ErrorValidation"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

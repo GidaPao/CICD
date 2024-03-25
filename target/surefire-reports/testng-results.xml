@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-24T15:52:49 PST" name="Suite" finished-at="2024-03-24T15:54:14 PST" duration-ms="84950">
+    <groups>
+      <group name="Purchase">
+        <method signature="StandAloneTestRefactor.submitOrder(java.util.HashMap)[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" name="submitOrder" class="RHA.SeleniumFrameworkDesign.StandAloneTestRefactor"/>
+        <method signature="StandAloneTestRefactor.OrderHistoryTest(java.util.HashMap)[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" name="OrderHistoryTest" class="RHA.SeleniumFrameworkDesign.StandAloneTestRefactor"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-03-24T15:52:49 PST" name="Submit Order Test" finished-at="2024-03-24T15:54:11 PST" duration-ms="82059">
+      <class name="RHA.SeleniumFrameworkDesign.StandAloneTestRefactor">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:52:51 PST" name="launchApplication" finished-at="2024-03-24T15:53:05 PST" duration-ms="14650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:53:05 PST" name="submitOrder" data-provider="getData" finished-at="2024-03-24T15:53:19 PST" duration-ms="13594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=T3$tdummy, item=ZARA COAT 3, username=1dummy@account.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:53:19 PST" name="closeDriver" finished-at="2024-03-24T15:53:20 PST" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:53:20 PST" name="launchApplication" finished-at="2024-03-24T15:53:32 PST" duration-ms="11208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:53:32 PST" name="submitOrder" data-provider="getData" finished-at="2024-03-24T15:53:39 PST" duration-ms="7466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, item=IPHONE 13 PRO, username=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:53:39 PST" name="closeDriver" finished-at="2024-03-24T15:53:40 PST" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:53:40 PST" name="launchApplication" finished-at="2024-03-24T15:53:51 PST" duration-ms="11171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:53:51 PST" name="OrderHistoryTest" data-provider="getData" finished-at="2024-03-24T15:53:54 PST" depends-on-methods="RHA.SeleniumFrameworkDesign.StandAloneTestRefactor.submitOrder" duration-ms="3083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=T3$tdummy, item=ZARA COAT 3, username=1dummy@account.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:53:54 PST" name="closeDriver" finished-at="2024-03-24T15:53:55 PST" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:53:55 PST" name="launchApplication" finished-at="2024-03-24T15:54:06 PST" duration-ms="10920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:54:06 PST" name="OrderHistoryTest" data-provider="getData" finished-at="2024-03-24T15:54:10 PST" depends-on-methods="RHA.SeleniumFrameworkDesign.StandAloneTestRefactor.submitOrder" duration-ms="4083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, item=IPHONE 13 PRO, username=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:RHA.SeleniumFrameworkDesign.StandAloneTestRefactor@7c137fd5]" started-at="2024-03-24T15:54:10 PST" name="closeDriver" finished-at="2024-03-24T15:54:11 PST" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- RHA.SeleniumFrameworkDesign.StandAloneTestRefactor -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2024-03-24T15:54:14 PST" name="Error Validations" finished-at="2024-03-24T15:54:14 PST" duration-ms="0">
+    </test> <!-- Error Validations -->
+  </suite> <!-- Suite -->
+</testng-results>
